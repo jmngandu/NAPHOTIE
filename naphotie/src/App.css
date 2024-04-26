@@ -28,7 +28,9 @@
   background-color: #242424;
   width: 400px;
   height: 400px;
+  border-radius: 1rem;
 }
 .page-file img {
   width: 100%;
+  border-radius: 1rem;
 }
