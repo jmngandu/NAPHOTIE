@@ -1,4 +1,8 @@
+import PlantsData from "./PlantsData";
 export const Hero = (props) => {
+  const PlantDataset = PlantsData.map((Plants) => {
+    return <Plants />;
+  });
   return (
     <>
       <div className="hero-sect">
