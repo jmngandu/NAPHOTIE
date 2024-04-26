@@ -3,7 +3,7 @@ export const Hero = (props) => {
     <>
       <div className="hero-sect">
         <div className="page-file">
-          <img src={props.img} alt="image of tea plant" />
+          <img src={props.img} />
           <h3>{props.h3}</h3>
           <p>{props.p}</p>
         </div>
