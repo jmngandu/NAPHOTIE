@@ -1,7 +1,9 @@
+import { Header } from "../Components/Header";
+
 export const Home = () => {
   return (
     <>
-      <h1>Naphotie</h1>
+      <Header />
     </>
   );
 };
