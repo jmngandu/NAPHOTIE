@@ -6,7 +6,7 @@ export const Home = () => {
     <>
       <Header />
       <Hero
-        img="/src/assets/Plants/scaled.jpeg"
+        img="scaled.jpeg"
         h3="A tea plant on the kenyan highlands"
         p="location - kenya"
       />
