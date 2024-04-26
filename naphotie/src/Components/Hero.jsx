@@ -1,7 +1,9 @@
 import PlantsData from "./PlantsData";
 export const Hero = (props) => {
   const PlantDataset = PlantsData.map((Plants) => {
-    return <Plants />;
+    return (
+      <Plants img={Plants.img} name={Plants.name} location={Plants.location} />
+    );
   });
   return (
     <>
