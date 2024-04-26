@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-size: 62.7%;
 }
 /*HEADER*/
 .header-sect {
@@ -16,6 +17,13 @@
 .nav-sect p {
   padding-left: 2rem;
 }
+.nav-sect P:hover {
+  color: coral;
+  transition: 2s ease;
+  border: 1px solid #242424;
+  border-radius: 1rem;
+}
+/*HERO PAGE*/
 .page-file {
   background-color: #242424;
   width: 400px;

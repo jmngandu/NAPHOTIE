@@ -4,8 +4,9 @@ export const Header = () => {
       <div className="header-sect">
         <h1>NAPHOTIE</h1>
         <nav className="nav-sect">
-          <p>Plants</p>
-          <p>Animals</p>
+          <p>PLANTS</p>
+          <p>ANIMALS</p>
+          <p>LAND</p>
         </nav>
       </div>
     </>
