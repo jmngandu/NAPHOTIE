@@ -3,8 +3,8 @@ export const Hero = () => {
     <>
       <div className="hero-sect">
         <div className="page-file">
-          <img />
-          <p>an image</p>
+          <img src="/src/assets/Plants/scaled.jpeg" />
+          <p>an image of a plan</p>
         </div>
       </div>
     </>
