@@ -1,11 +1,13 @@
 export const Header = () => {
   return (
     <>
-      <h1>NAPHOTIE</h1>
-      <nav>
-        <p>Plants</p>
-        <p>Animals</p>
-      </nav>
+      <div className="header-sect">
+        <h1>NAPHOTIE</h1>
+        <nav className="nav-sect">
+          <p>Plants</p>
+          <p>Animals</p>
+        </nav>
+      </div>
     </>
   );
 };

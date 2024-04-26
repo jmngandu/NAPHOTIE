@@ -4,3 +4,20 @@
   padding: 2rem;
   text-align: center;
 }
+/*HEADER*/
+.header-sect {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-sect {
+  display: flex;
+  align-items: center;
+}
+.nav-sect p {
+  padding-left: 2rem;
+}
+.page-file {
+  background-color: #242424;
+  width: 400px;
+  height: 400px;
+}
