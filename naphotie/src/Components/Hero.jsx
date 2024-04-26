@@ -3,9 +3,9 @@ export const Hero = (props) => {
     <>
       <div className="hero-sect">
         <div className="page-file">
-          <img src="/src/assets/Plants/scaled.jpeg" />
+          <img src="/src/assets/Plants/scaled.jpeg" alt="image of tea plant" />
           <h3>A tea plant on the kenyan highlands</h3>
-          <p>location kenya</p>
+          <p>location - kenya</p>
         </div>
       </div>
     </>
