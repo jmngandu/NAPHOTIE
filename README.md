@@ -1,2 +1,1 @@
-#nature photos
 > nature photos
