@@ -11,6 +11,7 @@ export const Home = () => {
         image={Plants.image}
         name={Plants.name}
         location={Plants.location}
+        openSpots={Plants.openSpots}
       />
     );
   });

@@ -29,6 +29,7 @@
   width: 300px;
   height: 300px;
   border-radius: 1rem;
+  position: relative;
 }
 .page-file:hover {
   scale: 1.1;
@@ -44,4 +45,14 @@
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 1rem;
+}
+.hero-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #151f30;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #fff;
 }
