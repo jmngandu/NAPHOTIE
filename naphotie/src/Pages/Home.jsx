@@ -5,17 +5,17 @@ import PlantsData from "../Components/PlantsData";
 export const Home = () => {
   const PlantDataset = PlantsData.map((Plants) => {
     return (
-      <Plants img={Plants.img} name={Plants.name} location={Plants.location} />
+      <Hero
+        image={Plants.image}
+        name={Plants.name}
+        location={Plants.location}
+      />
     );
   });
   return (
     <>
       <Header />
-      <Hero
-        img="scaled.jpeg"
-        h3="A tea plant on the kenyan highlands"
-        p="location - kenya"
-      />
+      <div className="Hero-page">{PlantDataset}</div>
     </>
   );
 };

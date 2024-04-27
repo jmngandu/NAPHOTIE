@@ -1,27 +1,32 @@
 export default [
   {
-    img: "src",
+    image: "banana.jpg",
     name: "Wild plant",
     location: "Eldoret, kenya",
   },
   {
-    img: "src",
+    image: "cocoa.jpg",
     name: "Wild plant",
     location: "Nairobi, kenya",
   },
   {
-    img: "src",
+    image: "scaled.jpeg",
     name: "Wild plant",
     location: "Kitui, kenya",
   },
   {
-    img: "src",
+    image: "banana.jpg",
     name: "Wild plant",
     location: "Mombasa, kenya",
   },
   {
-    img: "src",
+    image: "cocoa.jpg",
     name: "Wild plant",
     location: "Nakuru, kenya",
+  },
+  {
+    image: "scaled.jpeg",
+    name: "Wild plant",
+    location: "Kitui, kenya",
   },
 ];
