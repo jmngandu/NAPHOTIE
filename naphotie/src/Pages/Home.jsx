@@ -8,10 +8,11 @@ export const Home = () => {
     return (
       <Hero
         key={Plants.id}
-        image={Plants.image}
-        name={Plants.name}
-        location={Plants.location}
-        openSpots={Plants.openSpots}
+        Plants={Plants}
+        // image={Plants.image}
+        // name={Plants.name}
+        // location={Plants.location}
+        // openSpots={Plants.openSpots}
       />
     );
   });

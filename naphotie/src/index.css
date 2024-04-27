@@ -14,4 +14,5 @@
 }
 body {
   font-size: 1.5rem;
+  user-select: none;
 }
