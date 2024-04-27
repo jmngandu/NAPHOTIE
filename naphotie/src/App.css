@@ -56,3 +56,23 @@
   font-weight: bold;
   color: #fff;
 }
+/*FOOTER*/
+.footer-sect {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  background-color: #242424;
+  height: 50vh;
+  position: relative;
+}
+.foot-more {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.foot-more h3:hover {
+  text-decoration: overline;
+}
+#conc {
+  bottom: 0;
+  position: absolute;
+}
