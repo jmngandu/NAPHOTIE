@@ -26,9 +26,13 @@
 /*HERO PAGE*/
 .page-file {
   background-color: #242424;
-  width: 400px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 1rem;
+}
+.page-file:hover {
+  scale: 1.1;
+  transition: 2s ease;
 }
 .page-file img {
   width: 100%;
