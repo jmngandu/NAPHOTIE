@@ -1,9 +1,9 @@
 export const Hero = (props) => {
   let badgeInfo;
   if (props.Plants.openSpots === 0) {
-    badgeInfo = "FREE";
+    badgeInfo = "GET FREE";
   } else {
-    badgeInfo = "PRO";
+    badgeInfo = "GO PRO";
   }
   return (
     <>
