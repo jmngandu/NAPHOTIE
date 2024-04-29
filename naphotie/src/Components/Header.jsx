@@ -1,5 +1,4 @@
 export const Header = () => {
-  // const time = new Date();
   const date = new Date();
   const hours = date.getHours();
   let timeOfDay;
