@@ -20,7 +20,7 @@ export const Header = () => {
         <nav className="nav-sect">
           <p>PLANTS</p>
           <p onClick={handleClick}>ANIMALS</p>
-          <p>LAND</p>
+          <p onMouseOver={handleClick}>LAND</p>
         </nav>
         <small>Time: {timeOfDay}</small>
       </div>
