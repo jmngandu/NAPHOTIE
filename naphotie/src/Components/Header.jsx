@@ -19,7 +19,7 @@ export const Header = () => {
         <h1>NAPHOTIE</h1>
         <nav className="nav-sect">
           <p>PLANTS</p>
-          <p onClick={handleClick()}>ANIMALS</p>
+          <p onClick={handleClick}>ANIMALS</p>
           <p>LAND</p>
         </nav>
         <small>Time: {timeOfDay}</small>
