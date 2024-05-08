@@ -11,7 +11,7 @@ export const Header = () => {
     timeOfDay = "Night";
   }
   function handleClick() {
-    alert("Welcome to naphtie");
+    alert("Welcome to naphotie");
   }
   return (
     <>
