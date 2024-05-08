@@ -11,7 +11,7 @@ export const Header = () => {
     timeOfDay = "Night";
   }
   function addImage() {
-    alert("image add ..");
+    alert("image added ..");
   }
   return (
     <>
