@@ -10,13 +10,16 @@ export const Header = () => {
   } else {
     timeOfDay = "Night";
   }
+  function handleClick() {
+    alert("Welcome to naphtie");
+  }
   return (
     <>
       <div className="header-sect">
         <h1>NAPHOTIE</h1>
         <nav className="nav-sect">
           <p>PLANTS</p>
-          <p>ANIMALS</p>
+          <p onClick={handleClick()}>ANIMALS</p>
           <p>LAND</p>
         </nav>
         <small>Time: {timeOfDay}</small>
