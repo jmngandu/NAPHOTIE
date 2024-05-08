@@ -10,8 +10,8 @@ export const Header = () => {
   } else {
     timeOfDay = "Night";
   }
-  function handleClick() {
-    alert("Welcome to naphotie");
+  function addImage() {
+    alert("image add ..");
   }
   return (
     <>
@@ -19,8 +19,8 @@ export const Header = () => {
         <h1>NAPHOTIE</h1>
         <nav className="nav-sect">
           <p>PLANTS</p>
-          <p onClick={handleClick}>ANIMALS</p>
-          <p>ADD IMAGE</p>
+          <p>ANIMALS</p>
+          <p onClick={addImage}>ADD IMAGE</p>
         </nav>
         <small>Time: {timeOfDay}</small>
       </div>
