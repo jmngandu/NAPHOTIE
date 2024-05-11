@@ -68,8 +68,9 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 1rem;
 }
-.foot-more h3:hover {
+.foot-more div:hover {
   text-decoration: overline;
 }
 #conc {
