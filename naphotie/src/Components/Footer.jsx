@@ -6,7 +6,7 @@ export const Footer = () => {
         <span>JMNGANDU FOUNDATION INCORPORATION WITH JTHREEGLOBALLY</span>
         <div className="foot-more">
           <div>FAQS</div>
-          <h3>Contacts</h3>
+          <div>Contacts</div>
           <div className="location-page">
             {/* <h3 className="location-page">Location</h3> */}
             location
