@@ -70,14 +70,11 @@
   flex-wrap: wrap;
   margin-top: 1rem;
 }
-.foot-more div:hover {
-  text-decoration: overline;
-}
 #conc {
   bottom: 0;
   position: absolute;
 }
 /*location*/
-.location-page:hover {
+.location-title:hover {
   color: blueviolet;
 }

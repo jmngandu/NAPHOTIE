@@ -8,7 +8,7 @@ export const Footer = () => {
           <div>FAQS</div>
           <div>Contacts</div>
           <div className="location-page">
-            Location
+            <div className="location-title">Location</div>
             <div className="location-map">
               <h1>hello world</h1>
             </div>
