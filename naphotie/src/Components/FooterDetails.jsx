@@ -2,7 +2,7 @@ export const FooterDetails = () => {
   let ourLocation = () => {
     return (
       <>
-        <div className="location-mapping">hello IAM JAMES</div>
+        <div className="location-mapping">Kenya</div>
       </>
     );
   };
