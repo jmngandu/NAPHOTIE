@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="foot-more">
           <h3>FAQS</h3>
           <h3>Contacts</h3>
-          <h3>Location</h3>
+          <h3 className="location-page">Location</h3>
           <h3>About</h3>
         </div>
         <small id="conc">2024 all rights reserved</small>
