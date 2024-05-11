@@ -75,12 +75,12 @@
   position: absolute;
 }
 /*location*/
-.location-title:hover {
+ {
   color: blueviolet;
 }
 .location-map {
   display: none;
 }
-.location-map:hover {
+.location-title:hover {
   display: block;
 }
