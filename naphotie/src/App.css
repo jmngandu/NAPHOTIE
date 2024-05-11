@@ -77,6 +77,6 @@
   position: absolute;
 }
 /*location*/
-.location-page {
+.location-page:hover {
   color: blueviolet;
 }
