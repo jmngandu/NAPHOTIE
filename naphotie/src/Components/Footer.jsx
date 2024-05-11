@@ -11,7 +11,7 @@ export const Footer = () => {
             {/* <h3 className="location-page">Location</h3> */}
             location
           </div>
-          <h3>About</h3>
+          <div>About</div>
         </div>
         <small id="conc">2024 all rights reserved</small>
       </div>
