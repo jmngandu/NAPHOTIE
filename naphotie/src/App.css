@@ -76,7 +76,7 @@
 }
 /*location*/
 .location-map {
-  display: none;
+  color: aqua;
 }
 .location-title:hover {
   display: block;

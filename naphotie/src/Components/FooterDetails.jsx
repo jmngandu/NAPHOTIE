@@ -1,4 +1,9 @@
 export const FooterDetails = () => {
+  function ourLocation() {
+    <>
+      <div className="location-mapping">hello IAM JAMES</div>
+    </>;
+  }
   return (
     <>
       <div className="footer-sect">
@@ -10,6 +15,7 @@ export const FooterDetails = () => {
           <div className="location-page">
             <div className="location-title">Location</div>
             <div className="location-map">
+              {ourLocation()}
               <h1>hello world</h1>
             </div>
           </div>
