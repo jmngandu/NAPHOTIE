@@ -81,6 +81,6 @@
 .location-map {
   display: none;
 }
-.location-map {
+.location-map:hover {
   display: block;
 }
