@@ -76,3 +76,7 @@
   bottom: 0;
   position: absolute;
 }
+/*location*/
+.location-page {
+  color: blueviolet;
+}
