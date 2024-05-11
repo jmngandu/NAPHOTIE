@@ -1,11 +1,11 @@
 export const FooterDetails = () => {
-  function ourLocation() {
+  let ourLocation = () => {
     return (
       <>
         <div className="location-mapping">hello IAM JAMES</div>
       </>
     );
-  }
+  };
   return (
     <>
       <div className="footer-sect">
