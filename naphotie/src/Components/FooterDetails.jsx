@@ -16,10 +16,7 @@ export const FooterDetails = () => {
           <div>Contacts</div>
           <div className="location-page">
             <div className="location-title">Location</div>
-            <div className="location-map">
-              {ourLocation()}
-              <h1>hello world</h1>
-            </div>
+            <div className="location-map">{ourLocation()}</div>
           </div>
           <div>About</div>
         </div>
