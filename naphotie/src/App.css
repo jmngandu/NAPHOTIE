@@ -78,3 +78,9 @@
 .location-title:hover {
   color: blueviolet;
 }
+.location-map {
+  display: none;
+}
+.location-map {
+  display: block;
+}
