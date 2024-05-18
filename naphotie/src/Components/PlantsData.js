@@ -3,7 +3,7 @@ export default [
     id: 1,
     image: "banana.jpg",
     name: "Banana plant",
-    location: "",
+    location: "Kisii, kenya",
     openSpots: 0,
   },
   {
