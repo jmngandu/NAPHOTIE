@@ -3,7 +3,7 @@ export default [
     id: 1,
     image: "banana.jpg",
     name: "Banana plant",
-    location: "Eldoret, kenya",
+    location: "",
     openSpots: 0,
   },
   {
@@ -17,7 +17,7 @@ export default [
     id: 3,
     image: "scaled.jpeg",
     name: "Tea plant",
-    location: "Kitui, kenya",
+    location: "Eldoret, kenya",
     openSpots: 3,
   },
   // {
