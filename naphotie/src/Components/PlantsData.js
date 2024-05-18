@@ -5,7 +5,7 @@ export default [
     name: "Banana plant",
     location: "Eldoret, kenya",
     openSpots: 0,
-  },￼￼
+  },
   {
     id: 2,
     image: "cocoa.jpg",
