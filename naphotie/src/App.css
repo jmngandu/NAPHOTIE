@@ -74,7 +74,8 @@
   bottom: 0;
   position: absolute;
 }
-location .location-map {
+/*location*/
+.location-map {
   color: aqua;
 }
 .location-title:hover {
