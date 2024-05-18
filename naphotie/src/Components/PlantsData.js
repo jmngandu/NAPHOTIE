@@ -9,7 +9,7 @@ export default [
   {
     id: 2,
     image: "cocoa.jpg",
-    name: "Wild plant",
+    name: "Cocoa plant",
     location: "Nairobi, kenya",
     openSpots: 0,
   },
