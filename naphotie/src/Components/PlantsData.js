@@ -135,11 +135,11 @@ export default [
   //   location: "Nakuru, kenya",
   //   openSpots: 0,
   // },
-  // {
-  //   id: 20,
-  //   image: "scaled.jpeg",
-  //   name: "Wild plant",
-  //   location: "Kitui, kenya",
-  //   openSpots: 13,
-  // },
+  {
+    id: 20,
+    image: "scaled.jpeg",
+    name: "Wild plant",
+    location: "Kitui, kenya",
+    openSpots: 13,
+  },
 ];
