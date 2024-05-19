@@ -13,7 +13,7 @@ export const Hero = (props) => {
           <img src={`/src/assets/Plants/${props.Plants.image}`} />
           <h3>{props.Plants.name}</h3>
           <p>{props.Plants.location}</p>
-          <p>{props.Plants.Quantity}</p>
+          <p>Quantity : {props.Plants.Quantity}</p>
         </div>
       </div>
     </>
