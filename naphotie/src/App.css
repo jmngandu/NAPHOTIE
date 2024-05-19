@@ -83,5 +83,7 @@
   color: coral;
 }
 #about-page:hover {
-  <p>d</p>
+  #about-text {
+    display: block;
+  }
 }
