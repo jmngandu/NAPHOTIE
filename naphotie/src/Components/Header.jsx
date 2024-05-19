@@ -1,4 +1,3 @@
-import { useState } from "react";
 export const Header = () => {
   const date = new Date();
   const hours = date.getHours();
