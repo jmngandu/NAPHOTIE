@@ -138,8 +138,8 @@ export default [
   {
     id: 20,
     image: "scaled.jpeg",
-    name: "Wild plant",
-    location: "Kitui, kenya",
+    name: "Tea plant",
+    location: "Meru, kenya",
     openSpots: 13,
   },
 ];
