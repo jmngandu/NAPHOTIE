@@ -12,6 +12,7 @@ export default [
     name: "Cocoa plant",
     location: "Kiambu, kenya",
     openSpots: 0,
+    Quantity: 0,
   },
   {
     id: 3,
