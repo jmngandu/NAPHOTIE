@@ -5,6 +5,7 @@ export default [
     name: "Banana plant",
     location: "Kisii, kenya",
     openSpots: 0,
+    Quantity: 0,
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export default [
     name: "Tea plant",
     location: "Eldoret, kenya",
     openSpots: 3,
+    Quantity: 0,
   },
   // {
   //   id: 4,
