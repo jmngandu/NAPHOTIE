@@ -128,13 +128,13 @@ export default [
   //   location: "Mombasa, kenya",
   //   openSpots: 3,
   // },
-  // {
-  //   id: 19,
-  //   image: "cocoa.jpg",
-  //   name: "Wild plant",
-  //   location: "Nakuru, kenya",
-  //   openSpots: 0,
-  // },
+  {
+    id: 19,
+    image: "cocoa.jpg",
+    name: "Wild plant",
+    location: "Nakuru, kenya",
+    openSpots: 0,
+  },
   {
     id: 20,
     image: "scaled.jpeg",
