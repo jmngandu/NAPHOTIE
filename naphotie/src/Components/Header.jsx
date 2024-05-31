@@ -25,7 +25,7 @@ export const Header = () => {
           <p onClick={addImage}>ADD NAPHOTIE</p>
         </nav>
         <small>
-          Time: {timeOfDay} {hours}
+          Time: {timeOfDay} [{hours}]
         </small>
       </div>
     </>
