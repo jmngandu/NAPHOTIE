@@ -3,11 +3,11 @@ export const Header = () => {
   const hours = date.getHours();
   let timeOfDay;
 
-  if (hours < 12) {
+  if (hours >= 4 && hours < 12) {
     timeOfDay = "Morning";
   } else if (hours >= 12 && hours < 17) {
     timeOfDay = "Afternoon";
-  } else if (hours >= 5 && hours <= 7) {
+  } else if (hours >= 17 && hours < 20) {
     timeOfDay = "Evening";
   } else {
     timeOfDay = "Night";
