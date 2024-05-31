@@ -7,6 +7,8 @@ export const Header = () => {
     timeOfDay = "Morning";
   } else if (hours >= 12 && hours < 17) {
     timeOfDay = "Afternoon";
+  } else if (hours >= 5 && hours <= 7) {
+    timeOfDay = "Evening";
   } else {
     timeOfDay = "Night";
   }
