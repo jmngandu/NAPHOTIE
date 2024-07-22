@@ -10,6 +10,7 @@ export const Home = () => {
   return (
     <>
       <Header />
+
       <div className="Hero-page">{PlantDataset}</div>
       <Footer />
     </>

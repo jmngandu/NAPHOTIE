@@ -19,6 +19,7 @@ export const Header = () => {
     <>
       <div className="header-sect">
         <h1>NAPHOTIE</h1>
+
         <nav className="nav-sect">
           <p>PLANTS</p>
           <p>ANIMALS</p>
