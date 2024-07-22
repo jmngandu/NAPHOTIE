@@ -82,3 +82,9 @@
   display: block;
   color: coral;
 }
+/*login page*/
+.login-page {
+  background-color: #fff;
+  color: #242424;
+  max-width: 400px;
+}
