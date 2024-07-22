@@ -104,15 +104,32 @@
   border: #151f30 solid 1px;
   text-align: center;
 }
-#log-btn {
+#log-btn,
+#signup-btn {
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 0.5rem;
 }
 #log-btn:hover {
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  background-color: coral;
+  transition: 1s ease;
 }
-#log-btn a {
+#log-btn a,
+#signup-btn a {
   color: #151f30;
   text-decoration: none;
+}
+#signup-btn {
+  margin: 1rem;
+}
+#signup-btn:hover {
+  background-color: rgb(89, 236, 126);
+  transition: 1s ease;
+}
+.login-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
 }

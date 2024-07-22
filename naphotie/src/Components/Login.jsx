@@ -20,15 +20,17 @@ export default function Login() {
           </div>
 
           <VerifyHuman />
+          <div className="login-btns">
+            <button onClick={welcomeM} id="log-btn" type="submit">
+              <Link to="/Home">Login</Link>
+            </button>
+            <ToastContainer />
 
-          <button onClick={welcomeM} id="log-btn" type="submit">
-            <Link to="/Home">Sign in</Link>
-          </button>
-          <ToastContainer />
-
-          <p>
-            <Link to="Signup">create account</Link>
-          </p>
+            <button onClick={welcomeM} id="signup-btn">
+              <Link to="Signup">Sign up</Link>
+            </button>
+            <ToastContainer />
+          </div>
         </form>
       </div>
     </>
