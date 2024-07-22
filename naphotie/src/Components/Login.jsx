@@ -14,9 +14,21 @@ export default function Login() {
         <form>
           <div className="log-input">
             <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Gmail"
+              required
+            />
             <label htmlFor="password">Password:</label>
-            <input type="password" id="password" name="password" required />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
           </div>
 
           <VerifyHuman />
@@ -33,6 +45,7 @@ export default function Login() {
           </div>
         </form>
       </div>
+      <small>©2024 Naphotie, All rights reserved.</small>
     </>
   );
 }
