@@ -87,4 +87,32 @@
   background-color: #fff;
   color: #242424;
   max-width: 400px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.log-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.log-input input {
+  width: 300px;
+  outline: none;
+  height: 25px;
+  border-radius: 0.5rem;
+  border: #151f30 solid 1px;
+  text-align: center;
+}
+#log-btn {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+#log-btn:hover {
+  opacity: 0.5;
+}
+#log-btn a {
+  color: #151f30;
+  text-decoration: none;
 }

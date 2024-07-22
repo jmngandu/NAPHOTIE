@@ -8,18 +8,20 @@ export default function Login() {
       <div className="login-page">
         <h3>Sign in to NAPHOTIE</h3>
         <form>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required />
+          <div className="log-input">
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label htmlFor="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
 
           <VerifyHuman />
 
-          <button type="submit">
+          <button id="log-btn" type="submit">
             <Link to="/Home">Sign in</Link>
           </button>
           <p>
-            <Link>create account</Link>
+            <Link to="Signup">create account</Link>
           </p>
         </form>
       </div>
