@@ -84,7 +84,12 @@
 }
 /*login page*/
 .login-page {
-  background-color: #fff;
+  background-color: #fff1e6;
+  background-color: #fff9e3;
+  background-color: #f0f8ff;
+  /* background-color: #faf9f6; */
+  /* background-color: #fbfcf8; */
+  /* background-color: #fbf5df; */
   color: #242424;
   max-width: 400px;
   padding: 0.5rem;
