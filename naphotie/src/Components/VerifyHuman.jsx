@@ -13,6 +13,7 @@ const VerifyHuman = () => {
         <input onClick={welcomeM} type="checkbox" />I agree to the terms and
         conditions
       </label>
+      <ToastContainer />
     </div>
   );
 };
