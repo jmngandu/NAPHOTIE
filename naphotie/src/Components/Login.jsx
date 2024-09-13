@@ -5,8 +5,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Login() {
-  const welcomeM = () => toast("Welcome to Naphotie!");
-
   return (
     <>
       <div className="login-page">
