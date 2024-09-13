@@ -33,14 +33,17 @@ export default function Login() {
 
           <VerifyHuman />
           <div className="login-btns">
-            <button onClick={welcomeM} id="log-btn" type="submit">
-              <Link to="/Home">Login</Link>
-            </button>
+            <Link to="/Home">
+              <button onClick={welcomeM} id="log-btn" type="submit">
+                Login
+              </button>
+            </Link>
             <ToastContainer />
-
-            <button onClick={welcomeM} id="signup-btn">
-              <Link to="Signup">Sign up</Link>
-            </button>
+            <Link to="Signup">
+              <button onClick={welcomeM} id="signup-btn">
+                Sign up
+              </button>
+            </Link>
             <ToastContainer />
           </div>
         </form>
