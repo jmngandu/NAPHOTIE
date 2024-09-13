@@ -1,7 +1,10 @@
 import React from "react";
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const VerifyHuman = () => {
+  const welcomeM = () => toast("Welcome to Naphotie!");
   return (
     <div>
       <h1>Verify you're human</h1>
