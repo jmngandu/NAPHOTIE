@@ -38,13 +38,10 @@ export default function Login() {
                 Login
               </button>
             </Link>
-            <ToastContainer />
+
             <Link to="Signup">
-              <button onClick={welcomeM} id="signup-btn">
-                Sign up
-              </button>
+              <button id="signup-btn">Sign up</button>
             </Link>
-            <ToastContainer />
           </div>
         </form>
       </div>
