@@ -1,8 +1,6 @@
 import { Form, Link } from "react-router-dom";
 import { useState } from "react";
 import VerifyHuman from "./VerifyHuman";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 export default function Login() {
   return (
